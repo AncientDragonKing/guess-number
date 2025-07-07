@@ -13,7 +13,7 @@ while True:
 	a = int(a)
 	if a == n:
 		print("**********終於猜對了!**********")
-		print("這是你猜的第", count, "次")
+		print("你猜了", count, "次")
 		break
 	elif a < n:
 		print("答案比", a, "還大")
